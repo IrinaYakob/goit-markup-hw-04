@@ -146,25 +146,39 @@
   /* hero */
   
   .hero{
+      height: 600px;
+   
   text-align: center;
   background-color: var(--accent-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient( to right, 
+  rgba(47, 48, 58, 0.8),
+  rgba(47, 48, 58, 0.8)
+  ),url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   
+  }
+  .overlay{
+      max-width: 1200px;
+      height: 600px;
+    
   }
   
-  .hero-title{
-      margin-top: 0;
-      margin-bottom: 46px;
-     
-  }
   
   .hero-title{
-      
+    margin-bottom: 30px;
+    margin-top: 0;
       color: var(--background-color);
       min-width: 646px;      
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  margin-bottom: 46px;
+  
+
   }
   
   
