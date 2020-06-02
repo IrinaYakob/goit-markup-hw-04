@@ -212,65 +212,67 @@
   
   
   /* section  преимущества*/
+  .section{
+  
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin: 0;
+    
+    outline:  1px solid var(--color-border);
+       
+    }
+    
+  .section-title{
+    color: var(--title-text-color); 
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-top: 30px;
+    margin-bottom: 0;
+    
+    }
+    .heading-title{
+        display: none;
+    }
   
   .list .element{
       width:  calc((100% - 90px) /4);
       margin-right: 30px;
-      
-      
   }
   .list .element:last-child{
       margin-right: 0;
   }
    
+  .element::before{
+      display: block;
+      content:"";
+      height: 120px;
+      min-width: 270px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: var(--backgraund-second);
+border-radius: 4px;
+  }
+
+  .icon-antenna::before{
+    background-image: url(../images/antenna1.png);
+  }
+  .icon-clock::before{
+    background-image: url(../images/clock1.png);
+  }
+  .icon-diagram::before{
+    background-image: url(../images/diagram1.png);
+  }
+  .icon-astronaut::before{
+    background-image: url(../images/astronaut1.png);
+  }
+  
   .element-text{
       margin-top: 10px;
       width: 270px;
       font-size: 14px;
       line-height: 1,7px;
   }
-  
-  .button-three{
-      display: inline-block;
-       padding-top: 25px;
-       padding-bottom: 25px;
-        background-color: var(--backgraund-second);
-        border-radius: 4px;
-        width: 270px;
-        height: 120px;
-        text-align: center;
-    }
-  
-  .list .button-three:hover,
-  .list .button-three:focus{
-       color: var(--backgraund-second);
-       background-color: var(--accent-color);
-  }
-  
-  
-  .section{
-  
-  padding-top: 90px;
-  padding-bottom: 90px;
-  margin: 0;
-  
-  outline:  1px solid var(--color-border);
-     
-  }
-  
-  .section-title{
-  color: var(--title-text-color); 
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  margin-top: 30px;
-  margin-bottom: 0;
-  
-  }
-  .heading-title{
-      display: none;
-  }
-  
   
   /* чем мы занимаемся */
   .feature.no-padding{
