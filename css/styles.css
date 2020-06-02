@@ -161,12 +161,7 @@
   background-repeat: no-repeat;
    
   }
-  .overlay{
-      max-width: 1200px;
-      height: 600px;
-    
-  }
-  
+ 
   
   .hero-title{
     margin-bottom: 30px;
@@ -217,10 +212,8 @@
     padding-top: 90px;
     padding-bottom: 90px;
     margin: 0;
-    
     outline:  1px solid var(--color-border);
-       
-    }
+     }
     
   .section-title{
     color: var(--title-text-color); 
