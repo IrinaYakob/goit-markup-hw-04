@@ -381,27 +381,32 @@ border-radius: 4px;
       align-content: center;
      
   }
-  .list .team{
-      display: block;
-      margin-top: 0;
-      
-      margin-left: 32px;
-      margin-right: 0;
-      
-  }
+ 
   /* Button*/
   .button{
-      display: inline-block;
-      background-color: var(--background-color);
-      justify-content: center;
-  }
+    display: inline-block;
+    background-color: var(--background-color);
+    justify-content: center;
+}
   
   .list .team{
       display: flex;
-      width: 20px;
-      align-items: center;   
+      width: 44px;
+      height: 44px;
+      justify-content: center;
+     
+      margin-right: 10px;
+      margin-left: 0; 
+      background-color:var(--accent-color);  
   }
-  
+   .button{
+      display: block;
+      justify-content: center;
+      text-align: center;
+      width: 44px;
+      height: 44px;
+  }
+
   .container-link{
       display: flex;
       align-content: center;
