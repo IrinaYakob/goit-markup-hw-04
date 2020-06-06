@@ -386,12 +386,14 @@ border-radius: 4px;
  .icon-logo{
      width: 20;
      height: 20;
-     fill:#afb1b8;
+     fill: #AFB1B8;
  }
-  .icon-logo :hover,
-  .icon-logo :focus{
-   fill: var(--background-color);   
+  .icon-logo :hover{
+    fill: var(--background-color);   
   }
+
+  
+
  .list .team{
       display: flex;
       width: 44px;
