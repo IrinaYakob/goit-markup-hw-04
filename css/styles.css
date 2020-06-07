@@ -465,12 +465,12 @@ border-radius: 4px;
 }
    .brand{
       display: flex;
-      border: 1px solid #AFB1B8;
+     
       width: 170px;
       height: 90px;
       padding: 0;
       margin-top: 50px;
-      border-radius: 4px;
+  
      
   }
 
@@ -486,6 +486,9 @@ border-radius: 4px;
 
   .brand-link{
       display: flex;
+      background-color: var(--background-color);
+      border: 1px solid #AFB1B8;
+      border-radius: 4px;
       justify-content: center;
       width: 100%;
       height: 100%;
@@ -499,10 +502,12 @@ border-radius: 4px;
   }
   .brand-link :hover,
   .brand-link :focus{
+      background-color: var(--background-color);
       color: var(--accent-color);
       
   }
-    .brand-link:hover {
+    .brand-link:hover,
+    .brand-link :focus{
     border:1px solid var(--accent-color);
     
   }
