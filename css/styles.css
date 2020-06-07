@@ -462,8 +462,11 @@ border-radius: 4px;
       text-align: center;
   
   }
-  
-  .list .brand{
+  .brands{
+    display: flex;
+    justify-content: space-between; 
+}
+   .brand{
       display: flex;
       border: 1px solid #AFB1B8;
       width: 170px;
@@ -471,29 +474,31 @@ border-radius: 4px;
       padding: 0;
       margin-top: 50px;
       border-radius: 4px;
-      
+     
   }
-  .list .brand{
+  .brand{
       margin-right: 30px;
   
       width: calc((100% - 150px) /6)
   }
       
-  .list .brand:last-child{
+  .brand:last-child{
       margin-right: 0;
   }   
-  
-  .brand{
+
+  .brand-link{
       display: flex;
       justify-content: center;
-      align-items: center;
-      width: 170px; 
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      align-items: center;  
   }
-  .brand .logo{
+  .brand-icon{
       fill:#AFB1B8;
   }
-  .brand .logo :hover,
-  .brand .logo :focus{
+  .brand-link :hover,
+  .brand-link :focus{
       fill: var(--accent-color);
   }
   /* адресс */
