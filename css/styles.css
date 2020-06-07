@@ -125,10 +125,10 @@
   /* contacts */
   .contacts .link{
       display: block;
-font-weight: 500;
-font-size: 14px;
-line-height: 1,14;
-letter-spacing: 0.02em;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1,14;
+      letter-spacing: 0.02em;
       color: var(--primary-text-color)    
      
   } 
@@ -148,7 +148,7 @@ letter-spacing: 0.02em;
     fill: var(--primary-text-color);
   }
   .logo-contacts:hover{
-      fill:  var(--accent-color);
+    fill:  var(--accent-color);
   }
   .contacts .link:hover,
   .contacts .link:focus{
@@ -191,7 +191,7 @@ letter-spacing: 0.02em;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  
   }
   
   
@@ -400,13 +400,16 @@ border-radius: 4px;
   }
  
   /* Icon-logo */
- .icon-logo{
+ .icon-logo{ 
      width: 20;
      height: 20;
+     padding: 0;
      fill: #AFB1B8;
  }
-  .icon-logo :hover{
-    fill: var(--background-color);   
+  .icon-logo :hover,
+  .icon-logo :focus{
+    fill: var(--background-color);
+   
   }
 
   
@@ -419,14 +422,21 @@ border-radius: 4px;
       align-items: center;
       margin-right: 10px;
       margin-left: 0; 
-      background-color: var(--accent-color);
+      background-color: var(--background-color);
       border-radius: 50%;
   }
 
+.team-icon :hover{
+    background-color: var(--accent-color);
+}
  .list .team:last-child{
      margin-right: 0;
  }
- 
+  .container-link .team:hover,
+  .content-link .team :focus{
+     background-color: var(--accent-color);
+     
+ }
  
  .container-link{
       display: flex;
@@ -479,7 +489,13 @@ border-radius: 4px;
       align-items: center;
       width: 170px; 
   }
-  
+  .brand .logo{
+      fill:#AFB1B8;
+  }
+  .brand .logo :hover,
+  .brand .logo :focus{
+      fill: var(--accent-color);
+  }
   /* адресс */
   footer{
     background-color:  var(--background-footer);
@@ -527,6 +543,24 @@ border-radius: 4px;
   
   }
   
+  .social-list .social{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 0; 
+    background-color: rgba(255, 255, 255, 0.1);;
+    border-radius: 50%;
+}
+
+.social .logo{
+    fill: var(--background-color);
+}
+.social-adress .social-list :hover{
+background-color:var(--accent-color);
+}
   .button-footer{
       display: inline-block;
       padding-top: 10px;
@@ -544,7 +578,11 @@ border-radius: 4px;
      
       
   }
-  
+  .logo-send{
+      width: 13px;
+      height: 13px;
+      margin-left: 10px;
+  }
   .footer-main {
       display: flex;
       padding: 0;
